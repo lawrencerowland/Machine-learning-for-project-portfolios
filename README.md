@@ -26,7 +26,7 @@ The target is IEG **Bank Performance**, rather than general project success. The
 
 There is a full description [here](https://lawrencerowland.github.io/ML-for-portfolios.html), suggesting different ways of approaching the topic. 
 
-The example explains a prototype workflow to study before adapting it to another portfolio. Reuse would require an explicit target, features available at the intended forecast date, and fresh validation; changing the data columns alone would not establish a useful forecast. 
+The example explains a prototype workflow to study before adapting it to another portfolio. Reuse would require an explicit target, features available at the intended forecast date, and fresh validation; changing the data columns alone would not establish a useful forecast.
 
 The proposed business rationale is retained below, with its assumptions separated from demonstrated results.
 
@@ -41,19 +41,19 @@ But if you want to go straight to details , then here are the folder choices:
 
 # Use cases currently written up
 
-These were the topics written up for this earlier collection. The [methods guide](https://lawrencerowland.github.io/ML-for-portfolios.html) supplies the broader context. 
+These were the topics written up for this earlier collection. The [methods guide](https://lawrencerowland.github.io/ML-for-portfolios.html) supplies the broader context.
 
 1. **Project success Prediction** This is possible if:
 - you are able to label historical projects or work-packages as success / failure, or similar categories
 - you have data for a significant number of these previous projects comprised of a number of project features or attributes per project
-This could support a training set. Evaluation would need to test whether features known at the decision date predict an appropriately defined later result. Sensitivity and precision on held-out historical rows alone do not establish that. Possible applications include flagging current reports for review or assessing proposals; neither is demonstrated as a deployed capability here. 
+This could support a training set. Evaluation would need to test whether features known at the decision date predict an appropriately defined later result. Sensitivity and precision on held-out historical rows alone do not establish that. Possible applications include flagging current reports for review or assessing proposals; neither is demonstrated as a deployed capability here.
 
 1. **Natural language processing for assessing your project domain using Orange** Rather than a bulky framework of project-management tasks, it is worthwhile having a framework that meets the particular requirements of your clients, sector or company. There will be more emphasis on some tasks, and some will not be needed. 
 Your business and portfolio will have  hundreds or thousands of documents relevant to project best-practice in your sector. Natural language processing is a way of mining the text to understand what the topics are within a business area. Orange is a no-code environment for doing this. 
 Where the team is experienced in the business sector, or where there is time to interview appropriate experts, then this approach can be complemented by structuring the key project tasks - by working with these experts to explain the steps and principles they apply.
 
 1. **Natural language processing for assessing your project domain using Gensim and other Python libraries**
-This does the same as the above use case, but requires a little coding experience. The linked repository retains earlier explanations and notebook material; parts of the former toolkit are now a navigational skeleton. Treat it as source material to inspect, not a promise of a complete runnable service. 
+This does the same as the above use case, but requires a little coding experience. The linked repository retains earlier explanations and notebook material; parts of the former toolkit are now a navigational skeleton. Treat it as source material to inspect, not a promise of a complete runnable service.
 
 
 # Further use cases
@@ -118,12 +118,12 @@ The hoped-for effects were more focused reviews, better scoping and selection, a
 
 # Alternative: Use AutoML on Microsoft Azure
 
-This earlier alternative considered automated model selection within a Microsoft environment. The screenshots below retain that exploration; they are not a current Azure setup guide or a validated comparison with the Orange model. 
+This earlier alternative considered automated model selection within a Microsoft environment. The screenshots below retain that exploration; they are not a current Azure setup guide or a validated comparison with the Orange model.
 
-This allows data and results to remain within one environment. Automated search compares candidate models under configured data and evaluation choices; it does not establish that the target, features or decision are appropriate. 
+This allows data and results to remain within one environment. Automated search compares candidate models under configured data and evaluation choices; it does not establish that the target, features or decision are appropriate.
 
 This can also be useful as a 'ranging shot', seeing if your data can support a useful prediction. Then, it can be useful to work on your own model, whether in Orange Data Mining, or in Python with SciKitLearn or Keras. I find follow up step helps in understanding what the model is doing, and gives more appreciation for understanding how to improve the data-set. 
-The service and library details are historical and would need checking before reuse. 
+The service and library details are historical and would need checking before reuse.
 
 There are also useful low-code approaches with Azure. The examples below regarding preliminary data exploration on the interesting [World Management Survey](https://worldmanagementsurvey.org) dataset, which looks at what management features are associated with success. Please raise an issue if you would like me to prioritise writing up this example. 
 
@@ -136,7 +136,7 @@ There are also useful low-code approaches with Azure. The examples below regardi
 In these earlier examples the approaches are conventional ML applied to project data from spreadsheets and relational databases. For related graph representations, see the [worked data models](https://lawrencerowland.github.io/Portfolio-data-model.html#read-the-worked-models). Those examples are not themselves evidence of predictive performance.
 
 # Overview of other examples
-This original status map records other ideas and examples from the period. It is retained as historical context, not a current delivery plan. 
+This original status map records other ideas and examples from the period. It is retained as historical context, not a current delivery plan.
  ![Original status map of machine-learning project examples.](images/ML-Project-models-status-LR.png)
 
 # Acknowledgements
